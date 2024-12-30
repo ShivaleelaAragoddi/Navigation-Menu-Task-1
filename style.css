@@ -1,0 +1,100 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #cbecee;
+    color: #500f91;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ff33;
+    color: white;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 5rem 2rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .section h1 {
+    color: #0f030e;
+    margin-bottom: 2rem;
+  }
+  .section h2 {
+    color: #0f030e;
+    margin-bottom: 1rem;
+  }
+
+  
+  .section h3 {
+    margin-top: 2rem;
+    color: #03090f;
+  }
+  .section h4{
+    margin-top: 2rem;
+    color: #03090f;
+
+  }
+  .section h5{
+    margin-top: 2rem;
+    color: #020b13;}
+  
+  .section p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
